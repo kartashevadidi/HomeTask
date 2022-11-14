@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_2.task_4;
 
+//отформатируй код
 public class NoMultiplication {
     public static void main(String[] args) {
 
