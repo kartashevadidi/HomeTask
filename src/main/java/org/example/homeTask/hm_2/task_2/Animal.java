@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_2.task_2;
 
+// отформатируй код
 public class Animal {
     public static void main(String[] args) {
         int animal = 1;
@@ -9,8 +10,8 @@ public class Animal {
             animal = animal * 2;
 
             System.out.println("Days: " + i + " -> Number of animals: " + animal);
-
+//эта строка не нужна
         }
-
+//эта строка не нужна
     }
 }
