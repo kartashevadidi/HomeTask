@@ -6,12 +6,9 @@ public class Animal {
         int animal = 1;
         int totalHours = 24;
 
-        for (int i =3; i <= totalHours; i = i + 3 ){
+        for (int i = 3; i <= totalHours; i = i + 3) {
             animal = animal * 2;
-
             System.out.println("Days: " + i + " -> Number of animals: " + animal);
-//эта строка не нужна
         }
-//эта строка не нужна
     }
 }

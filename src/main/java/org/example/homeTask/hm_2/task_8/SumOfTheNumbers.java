@@ -5,7 +5,7 @@ public class SumOfTheNumbers {
 
         int sumOfEvenNumbers = 0;
         int sumOfOddNumbers = 0;
-        int totalSum ;
+        int totalSum;
 
         for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0) {
