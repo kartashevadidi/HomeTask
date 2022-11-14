@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_2.task_3;
 
+//отформатируй код
 public class Calculations {
     public static void main(String[] args) {
         int sum = 0;
