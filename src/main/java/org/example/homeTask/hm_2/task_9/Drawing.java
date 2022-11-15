@@ -18,8 +18,8 @@ public class Drawing {
             }
             System.out.println();
         }
-
-
+// пустая строка не нужна
+// пустая строка не нужна
     }
 }
 
