@@ -14,10 +14,9 @@ public class SumOfTheNumbers {
             }
         }
         System.out.println("sumOfEvenNumbers " + sumOfEvenNumbers);
-        System.out.println("sumOfOddNumbers " + sumOfOddNumbers);// как вишенка на торте поставить абзац после этой строки, чтобы визуально отделить тотал //Fixed
+        System.out.println("sumOfOddNumbers " + sumOfOddNumbers);
         System.out.println();
-        int totalSum; // а зачем делать отдельной строкой? сразу int totalSum = ...
-        totalSum = sumOfEvenNumbers + sumOfOddNumbers;
+        int totalSum = sumOfEvenNumbers + sumOfOddNumbers;
         System.out.println("TotalSum " + totalSum);
     }
 }

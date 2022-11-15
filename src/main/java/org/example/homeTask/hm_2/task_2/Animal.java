@@ -1,6 +1,5 @@
 package org.example.homeTask.hm_2.task_2;
 
-// отформатируй код
 public class Animal {
     public static void main(String[] args) {
         int animal = 1;
