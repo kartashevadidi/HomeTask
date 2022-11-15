@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_2.task_7;
 
+//+
 public class SumOfOddNumbers {
     public static void main(String[] args) {
         int sum = 0;
