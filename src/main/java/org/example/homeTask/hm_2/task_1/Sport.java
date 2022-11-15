@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_2.task_1;
 
+// +
 public class Sport {
     public static void main(String[] args) {
         double defaultDailyDistance = 10; // что такое км? defaultDailyDistance - думаю так информативнее будет  FIXED
