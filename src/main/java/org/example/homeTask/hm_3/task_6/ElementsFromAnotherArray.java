@@ -14,7 +14,7 @@ public class ElementsFromAnotherArray {
         }
 
         int[] arrayOfEvenNumbers = new int[countOfEvenNumbers];
-        int indexCount = 0;
+        int indexCount = 0; // foreach отличается от for отсутствием индексации, если тебе нужен индекс, используй обычный for
         for (int i : array) {
             if (i % 2 == 0) {
                 arrayOfEvenNumbers[indexCount++] = i;
