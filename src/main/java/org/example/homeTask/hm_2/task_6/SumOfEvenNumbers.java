@@ -1,6 +1,5 @@
 package org.example.homeTask.hm_2.task_6;
 
-// отформатируй код
 public class SumOfEvenNumbers {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) { // в конце этой строки должна быть "{". Всегда используй фигурные скобки для тела цикла //Fixed

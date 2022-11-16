@@ -2,7 +2,6 @@ package org.example.homeTask.hm_2.task_5;
 
 public class InchTranslations {
     public static void main(String[] args) {
-//эта строка лишняя
         double centimetresInInch = 2.54;
         double quantityInches = 20;
         System.out.println("Conversion from inches to centimeters");
@@ -11,5 +10,4 @@ public class InchTranslations {
             System.out.println(b * centimetresInInch);
         }
     }
-
 }
