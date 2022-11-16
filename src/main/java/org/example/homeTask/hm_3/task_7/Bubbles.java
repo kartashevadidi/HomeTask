@@ -2,6 +2,7 @@ package org.example.homeTask.hm_3.task_7;
 
 import java.util.Arrays;
 
+//+
 public class Bubbles {
     public static void main(String[] args) {
         int[] array = {19, 1, 9, 25};
