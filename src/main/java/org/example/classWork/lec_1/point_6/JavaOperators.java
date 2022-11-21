@@ -1,4 +1,4 @@
-package org.example.lec_1.point_6;
+package org.example.classWork.lec_1.point_6;
 
 public class JavaOperators {
     public static void main(String[] args) {

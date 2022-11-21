@@ -1,4 +1,4 @@
-package org.example.lec_2.point_4;
+package org.example.classWork.lec_2.point_4;
 
 public class DoEx {
     public static void main(String[] args) {

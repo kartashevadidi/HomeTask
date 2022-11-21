@@ -1,4 +1,4 @@
-package org.example.lec_2.point_2;
+package org.example.classWork.lec_2.point_2;
 
 public class SwitchEx {
     public static void main(String[] args) {

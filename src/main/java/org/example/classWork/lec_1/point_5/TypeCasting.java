@@ -1,4 +1,4 @@
-package org.example.lec_1.point_5;
+package org.example.classWork.lec_1.point_5;
 
 public class TypeCasting {
     public static void main(String[] args) {

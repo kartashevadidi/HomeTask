@@ -1,4 +1,4 @@
-package org.example.lec_1.point_4;
+package org.example.classWork.lec_1.point_4;
 
 public class TypesMain {
     public static void main(String[] args) {

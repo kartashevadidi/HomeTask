@@ -14,12 +14,21 @@ public class ElementsFromAnotherArray {
         }
 
         int[] arrayOfEvenNumbers = new int[countOfEvenNumbers];
-        int indexCount = 0; // foreach отличается от for отсутствием индексации, если тебе нужен индекс, используй обычный for
-        for (int i : array) {
-            if (i % 2 == 0) {
-                arrayOfEvenNumbers[indexCount++] = i;
+        int index = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                arrayOfEvenNumbers[index] = array[i];
+                index++;
             }
         }
         System.out.println(Arrays.toString(arrayOfEvenNumbers));
     }
 }
+// .. Я бы хотела обсудить на заняти этот комментарий
+//        int[] arrayOfEvenNumbers = new int[countOfEvenNumbers];
+//        int indexCount = 0; // foreach отличается от for отсутствием индексации, если тебе нужен индекс, используй обычный for
+//        for (int i : array) {
+//            if (i % 2 == 0) {
+//                arrayOfEvenNumbers[indexCount++] = i;
+//            }
+//        }

@@ -1,4 +1,4 @@
-package org.example.lec_2.point_1;
+package org.example.classWork.lec_2.point_1;
 
 public class ifEx {
     public static void main(String[] args) {

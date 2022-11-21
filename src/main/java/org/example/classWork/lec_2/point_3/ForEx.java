@@ -1,13 +1,11 @@
-package org.example.lec_2.point_5;
+package org.example.classWork.lec_2.point_3;
 
-public class ContinueEx {
+public class ForEx {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-
-            if (i == 5) {
-                continue;
-            }
             System.out.println(i);
+
         }
     }
+
 }
