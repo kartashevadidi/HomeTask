@@ -7,8 +7,15 @@ public class StaticField {
         CustomerData newClients = new CustomerData();
         System.out.println(newClients.nameCustomer);
         System.out.println(newClients.ageCustomer);
-
-
+        newClients.setText("test_1");
         System.out.println(newClients.getText());
+
+        CustomerData oldClients = new CustomerData("Kate", 35);
+        System.out.println(oldClients.nameCustomer);
+        System.out.println(oldClients.ageCustomer);
+        oldClients.setText("test_2");
+        System.out.println(oldClients.getText());
+
+        System.out.println(newClients.getText()); //выводила, что бы понять как работает
     }
 }
