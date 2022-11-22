@@ -1,11 +1,11 @@
 package org.example.homeTask.hm_4.task_2;
 
-public class CustomerData {
-    public String nameCustomer = "Diana";
-    public Integer ageCustomer = 18;
-    private static String text = "Hello from static";
+public class CustomerData { // хорошее название для класса
+    public String nameCustomer = "Diana"; // nameCustomer  -> name, эти поля итак принадлежат классу Customer, не надо дублировать в названии
+    public Integer ageCustomer = 18; // ageCustomer -> age
+    private static String text = "Hello from static"; // после 5ой лекции статик поля наверх
 
-    static {
+    static { // этот блок отработает только один раз за время работы программы, а если мы захотим создать два экземпляра? static здесь не подойдет
         System.out.println("Hello new class");
     }
 
