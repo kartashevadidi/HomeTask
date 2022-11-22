@@ -1,6 +1,5 @@
 package org.example.homeTask.hm_4.task_2;
 
-// я бы еще предложил сделать класс с методом main и создать кастомера
 public class CustomerData { // хорошее название для класса
     public String nameCustomer = "Diana"; // nameCustomer  -> name, эти поля итак принадлежат классу Customer, не надо дублировать в названии
     public Integer ageCustomer = 18; // ageCustomer -> age
