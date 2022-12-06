@@ -2,6 +2,7 @@ package org.example.homeTask.hm_6.task_3;
 
 import java.util.Arrays;
 
+//+
 public class HouseCatalogue {
     private Building[] houseCatalogue;
 
