@@ -18,7 +18,7 @@ public class UrbanApartment implements Building {
 
     @Override
     public void turnHit(boolean on) {
-        isThereHeating = on;
+        isThereHeating = on; // в интерфейсе описал претензию к названию аргумента метода
     }
 
     @Override
