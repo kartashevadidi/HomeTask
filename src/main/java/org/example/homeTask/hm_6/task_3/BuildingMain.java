@@ -11,6 +11,7 @@ public class BuildingMain {
                 new UrbanApartment(19, true, 143)
         };
         HouseCatalogue houseCatalog = new HouseCatalogue(houseArray);
+        // не оставляй закомментированный код в готовом варианте
         //       System.out.println(houseCatalog.toString());
     }
 }
