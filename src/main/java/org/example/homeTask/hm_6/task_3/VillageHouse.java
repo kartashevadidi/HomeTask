@@ -18,17 +18,17 @@ public class VillageHouse implements Building {
 
     @Override
     public void turnHit(boolean on) {
-
+        isThereHeating = on;
     }
 
     @Override
     public boolean isThereHeating() {
-        return false;
+        return isThereHeating;
     }
 
     @Override
     public int getResidentsCount() {
-        return 0;
+        return residentsCount;
     }
 
     @Override
