@@ -23,7 +23,7 @@ public class VillageHouse implements Building {
 
     @Override
     public boolean isThereHeating() {
-        return isThereHeating;
+        return isThereHeating; // в интерфейсе описал претензию к названию аргумента метода
     }
 
     @Override
