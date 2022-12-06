@@ -1,5 +1,6 @@
 package org.example.homeTask.hm_6.task_2;
 
+//+
 public class WarehouseMain {
     public static void main(String[] args) {
         int nextCount = 10;
