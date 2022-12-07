@@ -4,7 +4,7 @@ public interface Building {
 
     int getFloorsCount();
 
-    void turnHit(boolean on); // зачем аргумент, если он называется on? Тогда луше метод назвать turnHittingOn
+    void turnHittingOn(boolean on); // зачем аргумент, если он называется on? Тогда луше метод назвать turnHittingOn
 
     boolean isThereHeating();
 

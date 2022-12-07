@@ -2,12 +2,12 @@ package org.example.homeTask.hm_6.task_3;
 
 public class UrbanApartment implements Building {
     private int floorsCount;
-    private boolean isThereHeating;
+    private boolean isThereHeatingOn;
     private int residentsCount;
 
     public UrbanApartment(int floorsCount, boolean isThereHeating, int residentsCount) {
         this.floorsCount = floorsCount;
-        this.isThereHeating = isThereHeating;
+        this.isThereHeatingOn = isThereHeating;
         this.residentsCount = residentsCount;
     }
 
@@ -17,13 +17,13 @@ public class UrbanApartment implements Building {
     }
 
     @Override
-    public void turnHit(boolean on) {
-        isThereHeating = on; // в интерфейсе описал претензию к названию аргумента метода
+    public void turnHittingOn(boolean on) {
+        isThereHeatingOn = on; // в интерфейсе описал претензию к названию аргумента метода
     }
 
     @Override
     public boolean isThereHeating() {
-        return isThereHeating;
+        return isThereHeatingOn;
     }
 
     @Override
@@ -35,7 +35,7 @@ public class UrbanApartment implements Building {
     public String toString() {
         return "UrbanApartment{" +
                 "floorsCount=" + floorsCount +
-                ", isThereHeating=" + isThereHeating +
+                ", isThereHeating=" + isThereHeatingOn +
                 ", residentsCount=" + residentsCount +
                 '}';
     }

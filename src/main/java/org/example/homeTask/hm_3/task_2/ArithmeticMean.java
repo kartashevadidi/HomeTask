@@ -8,7 +8,6 @@ public class ArithmeticMean {
         for (int i : array) {
             sumOfArrayElements += i;
         }
-        double arithmeticMean = sumOfArrayElements / array.length;
-        System.out.println("Среднее арифметическое элементов массива: " + arithmeticMean); // я бы рекомендовал вынести в отдельную переменную среднее число //FIXED
+        System.out.println("Среднее арифметическое элементов массива: " + (double) sumOfArrayElements / array.length);
     }
 }
