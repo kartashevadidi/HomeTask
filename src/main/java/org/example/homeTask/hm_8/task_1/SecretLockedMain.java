@@ -2,7 +2,8 @@ package org.example.homeTask.hm_8.task_1;
 
 import java.lang.reflect.Field;
 
-public class SecretLockedMain {
+//+
+public class SecretLockedMain { // Locked -> Locke(r) - это не ошибка, но возможно опечатка
     public static void main(String[] args) throws Exception {
         SecretLocker secretLocker = new SecretLocker();
 
