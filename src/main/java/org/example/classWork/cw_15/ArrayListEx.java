@@ -3,7 +3,7 @@ package org.example.classWork.cw_15;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListEx {
+public class   ArrayListEx {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();  // чаще пишется просто List
 
